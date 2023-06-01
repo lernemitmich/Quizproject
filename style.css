@@ -1,0 +1,33 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  #feedback {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #options {
+    text-align: left;
+  }
+  
+  #options label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #options input[type="radio"] {
+    margin-right: 5px;
+  }
+  
