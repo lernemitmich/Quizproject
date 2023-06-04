@@ -54,7 +54,7 @@ const quizData = [
         },
 
     {
-        question: "8. Who is considered to be the creator of the first robot??",
+        question: "7. Who is considered to be the creator of the first robot??",
         options: ["Alan Turing", 
         " George Devol", 
         "Joseph Weizenbaum",
@@ -64,7 +64,7 @@ const quizData = [
       },
 
       {
-        question: " 9. Who is the developer of the humanoid robot Sophia?",
+        question: " 8. Who is the developer of the humanoid robot Sophia?",
         options: ["Joseph Weizenbaum", 
         " George Devol", 
         "Hanson Robotics",
@@ -74,7 +74,7 @@ const quizData = [
       },
 
       {
-        question: " 10.Which one of these are AI?",
+        question: " 9.Which one of these are AI?",
         options: ["Vertual Asssistants", 
         " Streaming services", 
         "smart vaccums",
@@ -82,13 +82,23 @@ const quizData = [
         answer: 3,
           
       },
-    // Add more questions here...
+
+      {
+        question: " What does GPT stand for in ChatGPT?",
+        options: [" General Purpose Transformer", 
+        " Generative Pre-trained Transformer", 
+        "Graph Processing Toolkit",
+        "Global Positioning Technology"],
+        answer: 0,
+          
+      },
+    // Add  questions here...
   ];
   
   let currentQuestion = 0;
   let score = 0;
   
-  // Function to load the current question
+  // Function to load the current question. 
   function loadQuestion() {
     const questionElement = document.getElementById("question");
     const optionsElement = document.getElementById("options");
@@ -121,8 +131,14 @@ const quizData = [
       } else {
         document.getElementById("feedback").innerText = "Wrong answer!";
       }
+      // Disable options after answering
+      const options = document.querySelectorAll('input[name="answer"]');
+      options.forEach((option) => {
+        option.disabled = true;
+      });
     }
   }
+  
   
   // Function to move to the next question
   function nextQuestion() {
@@ -144,6 +160,7 @@ const quizData = [
       document.getElementsByTagName("button")[1].style.display = "none";
     }
   }
+  
   
   // Initial load
   loadQuestion();
