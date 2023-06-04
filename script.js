@@ -84,12 +84,12 @@ const quizData = [
       },
 
       {
-        question: " What does GPT stand for in ChatGPT?",
+        question: " 10. What does GPT stand for in ChatGPT?",
         options: [" General Purpose Transformer", 
         " Generative Pre-trained Transformer", 
         "Graph Processing Toolkit",
         "Global Positioning Technology"],
-        answer: 0,
+        answer: 1,
           
       },
     // Add  questions here...
