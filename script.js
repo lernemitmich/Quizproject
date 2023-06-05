@@ -153,7 +153,7 @@ const quizData = [
       document.getElementById("feedback").innerText = "";
     } else {
       // Display final score
-      document.getElementById("question").innerText = `You scored ${score} out of ${quizData.length}.`;
+      document.getElementById("question").innerText = `You scored ${score} out of ${quizData.length +1}.`;
       document.getElementById("options").innerHTML = "";
       document.getElementById("feedback").innerText = "";
       document.getElementsByTagName("button")[0].style.display = "none";
