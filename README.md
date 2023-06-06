@@ -23,6 +23,6 @@ After answering all the questions, the app will display your final score.
 Feel free to explore the Quiz App, challenge yourself, and have fun testing your knowledge!
 
 Development:
-Customize the questions, options, and quiz logic in the provided HTML, CSS, and JavaScript files (index.html, style.css, script.js).
+Customize the questions, options, and quiz logic in the provided HTML, CSS, and JavaScript files.
 Modify the styles and layout in style.css to match your desired design.
 Enjoy the Quiz App!
