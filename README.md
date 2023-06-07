@@ -1,13 +1,22 @@
 # Quizproject
 Welcome to QuizApp :
 It allows users to participate in a quiz and test their knowledge on Computer Science and AI(Artificial Intelligence).
+
+
 Features:
 User-Friendly Interface: The Quiz App provides a simple and intuitive user interface, making it easy for users to navigate and participate in this quiz.
+
+
 Multiple Choice Questions: The app presents questions in a multiple-choice format, providing users with options to choose the correct answer.
+
 Immediate Feedback: After submitting an answer, users receive immediate feedback indicating whether their response was correct or incorrect.
-rogress Tracking: The Quiz App keeps track of the user's progress, displaying the number of questions answered and the overall score.
-Responsive Design: The application is built with a responsive design, allowing users to access and use it on various devices, including desktops, tablets, and mobile phones.
+
+Progress Tracking: The Quiz App keeps track of the user's progress, displaying the number of questions answered and the overall score.
+
+Responsive Design: The application is built with a responsive design, allowing users to access and use it on various devices, including desktops, tablets, and mobile phones
+.
 Next Question: Users can proceed to the next question after submitting their answer, allowing them to progress through the quiz smoothly.
+
 Usage
 Open the Quiz App in a web browser.
 The app will display a question along with multiple options to choose from.
