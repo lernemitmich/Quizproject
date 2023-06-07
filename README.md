@@ -15,11 +15,10 @@ Immediate Feedback: After submitting an answer, users receive immediate feedback
 Progress Tracking: The Quiz App keeps track of the user's progress, displaying the number of questions answered and the overall score.
 
 Responsive Design: The application is built with a responsive design, allowing users to access and use it on various devices, including desktops, tablets, and mobile phones
-.
-=======
+
 Progress Tracking: The Quiz App keeps track of the user's progress, displaying the number of questions answered and the overall score.
 Responsive Design: The application is built with a responsive design, allowing users to access and use it on various devices, including desktops, tablets, and mobile phones.
->>>>>>> 4f5e0583cf7e5a72ebe6ccbd1c9c5e64d4a1e9b5
+
 Next Question: Users can proceed to the next question after submitting their answer, allowing them to progress through the quiz smoothly.
 
 Usage
